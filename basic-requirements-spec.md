@@ -49,10 +49,10 @@ Tool entries must use English property names.
 
 ```js
 {
-  title: "Tool One",
-  description: "Short description for this static tool.",
-  category: "Utility",
-  url: "https://example.github.io/tool-one/"
+  title: "Stock Tracker",
+  description: "Track stock data from a static dashboard.",
+  category: "Finance",
+  url: "https://defint91.github.io/Stocktracker/"
 }
 ```
 
@@ -112,10 +112,11 @@ Tool entries must use English property names.
 - `index.html` loads without a build step.
 - Page contains `Tool Hub`.
 - Page contains `Static tools collection`.
-- Page renders two placeholder tools:
-  - `Tool One`
-  - `Tool Two`
-- Tool count displays `02`.
+- Page renders three configured tools:
+  - `Stock Tracker`
+  - `Task Dashboard`
+  - `Trade Records`
+- Tool count displays `03`.
 - `Open` links use `target="_blank"`.
 - `Open` links use `rel="noopener noreferrer"`.
 - No personal names are shown in the page content.
@@ -131,4 +132,5 @@ Tool entries must use English property names.
 
 ## 12. Version History
 
+- `0.1.1`: Replace placeholder tools with three configured GitHub Pages links.
 - `0.1.0`: Initial static Tool Hub page with two placeholder tools and GitHub Pages deployment.
